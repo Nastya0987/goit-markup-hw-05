@@ -763,11 +763,10 @@ ol {
 }
 .footer-form-conteiner {
   display: flex;
-}
-.footer-form-after {
   gap: 24px;
 }
-.footer-input-befor {
+
+.footer-input-conteiner {
   width: 264px;
   height: 40px;
   flex-shrink: 0;
@@ -781,7 +780,7 @@ ol {
   border: 1px solid var(--WHITE, #fff);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
-::placeholder {
+.footer-input-conteiner::placeholder {
   color: #ffffff;
 }
 .footer-btn-conteiner {
