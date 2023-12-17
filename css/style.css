@@ -764,10 +764,10 @@ ol {
 .footer-form-conteiner {
   display: flex;
 }
-.footer-label-conteiner {
+.footer-form-after {
   gap: 24px;
 }
-.footer-input-conteiner {
+.footer-input-befor {
   width: 264px;
   height: 40px;
   flex-shrink: 0;
