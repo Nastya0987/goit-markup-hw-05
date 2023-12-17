@@ -522,13 +522,17 @@
         <div class="footer-div-conteiner">
           <p class="footer-page-conteiner">Subscribe</p>
           <form class="footer-form-conteiner">
-            <label for="" class="footer-label-conteiner">
-              <input
-                type="email"
-                placeholder="E=mail"
-                class="footer-input-conteiner"
-              />
-            </label>
+            <label for="user-email" class="footer-label-conteiner"
+              >E-mail</label
+            >
+            <input
+              type="email"
+              placeholder="E-mail"
+              class="footer-input-conteiner"
+              name="user-email"
+              id="user-email"
+            />
+
             <button class="footer-btn-conteiner" type="submit">
               Subscribe
               <svg class="footer-svg-conteiner" width="24" height="24">
@@ -627,7 +631,7 @@
                 class="review-form-input"
                 id="user-tel"
                 name="user-tel"
-                type="tele"
+                type="tel"
                 pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
                 title="xxx-xxx-xx-xx"
                 required
