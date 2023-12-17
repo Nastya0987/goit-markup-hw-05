@@ -530,6 +530,7 @@ ol {
   left: 50%;
   padding: 24px;
   padding-top: 72px;
+  transform: translate(-50%, -50%) scale(1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border-radius: 4px;
   background-color: var(--DAIRY, #fcfcfc);
@@ -544,6 +545,13 @@ ol {
   stroke: #2e2f42;
   position: absolute;
   top: 24px;
+  width: 24px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   right: 24px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -594,6 +602,9 @@ ol {
   font-weight: 400;
   line-height: 1.17px; /* 116.667% */
   letter-spacing: 0.04em;
+}
+.review-form-checkbox-label:hover {
+  background-color: #404bbf;
 }
 .review-form-field-label {
   color: var(--LIGHT-SLATE, #8e8f99);
@@ -689,6 +700,8 @@ ol {
   display: inline-flex;
   border-radius: 6px;
   align-items: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   justify-content: center;
   cursor: pointer;
   stroke-width: 1px;
