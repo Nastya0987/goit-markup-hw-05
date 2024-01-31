@@ -611,7 +611,7 @@ ol {
   fill: #4d5ae5;
 }
 .review-form-field-wrapper {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 .review-form-checkbox-label {
   color: var(--LIGHT-SLATE, #8e8f99);
