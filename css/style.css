@@ -281,10 +281,12 @@ ol {
 }
 .social-list-page {
   display: flex;
-  justify-content: center;
+
   gap: 24px;
   width: 40px;
   height: 40px;
+  padding: 12px;
+  margin-left: 9px;
 }
 .social-list-item {
   width: 40px;
@@ -611,7 +613,7 @@ ol {
   fill: #4d5ae5;
 }
 .review-form-field-wrapper {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 .review-form-checkbox-label {
   color: var(--LIGHT-SLATE, #8e8f99);
